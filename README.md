@@ -41,6 +41,21 @@ DunkLocate, yakınınızdaki halka açık basketbol sahalarını hızlı ve kola
   <img src="https://github.com/anlyetim/DunkLocate/blob/main/.Visuals/Screenshot0.jpg" alt="DunkLocate Icon" width="294">
 </p>
 
+### Special Thanks / Özel Teşekkürler. :raccoon:
+- [Emirhan Yalçın](https://github.com/emrhanyalcin) :gorilla:
+- [Bilal KORKMAZ](https://github.com/bilkorkmaz) :llama:
+
+- #### ***Öğr. Gör. Sena Nur Benli 🌠***
+
+
+## 🗺️ API
+### [Google Maps API](https://mapsplatform.google.com/)
+
+EN <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="British Flag" width="20" height="15"> :DunkLocate uses the Google Maps API to help users find basketball courts near them. This API provides map display, location information and navigation features.
+
+TR <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Türk Bayrağı" width="20" height="15"> :DunkLocate, kullanıcıların yakınlarındaki basketbol sahalarını bulmalarına yardımcı olmak için Google Maps API'sini kullanmaktadır. Bu API, harita görüntüleme, konum bilgisi ve navigasyon özellikleri sunar.
+
+
 ## 🛠️ Setup / Kurulum
 ### EN <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="British Flag" width="20" height="15">
 Follow these steps to get started by cloning the project to your local environment:
