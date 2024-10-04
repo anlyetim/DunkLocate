@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kurallar"
+                android:textColor="@color/text_color"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/text_color"
+                android:background="@drawable/search_edt_background"
+                android:text="  \n  1.Takımlar: Her takım, 5 oyuncudan oluşur. \n Oyuncular, hücum ve savunma pozisyonları arasında geçiş yaparlar. \n
+
+2.Oyun Süresi: Maç, dört dönemden oluşur. Her dönemde belirli bir süre vardır.\n Profesyonel maçlarda genellikle dönem başına 12 dakika süre verilir.\n
+
+3.Oyunun Başlaması: Maç, bir tip-off ile başlar. Hakem, topu orta sahada yukarı doğru atar ve iki takımın birer oyuncusu bu topu kazanmaya çalışır. \n
+
+4.Puanlama: Takımlar, rakip potaya topu atmaya çalışarak sayı alır. \n İç saha çizgisi dışından atılan bir basket 3 sayı, iç saha çizgisi içinden atılan bir basket ise 2 sayı değerindedir. \n Serbest atışlar ise 1 sayı değerindedir. \n
+
+5.Savunma: Savunma, rakip takımın hücumunu engellemek için yapılan faaliyetlerin tümüdür.\n Savunma oyuncuları topu çalmak, pasları engellemek ve rakip oyuncuları zor durumda bırakmak için çeşitli taktikler kullanır. \n
+
+6.Faul ve Serbest Atışlar: Faul, bir oyuncunun rakip oyuncuya kural ihlali yapması durumunda verilen cezadır. \n Faul alan takım, serbest atış hakkı kazanır. \n Serbest atışlar, faul yapılan oyuncunun rakip pota çizgisinden serbest atış yapmasıyla gerçekleşir. \n
+
+
+\n
+
+1'e 1 Maçlar İçin Özel Kurallar:
+\n
+
+1.Başlama: Maç, tip-off ile başlar. İki oyuncu da topun başlama pozisyonuna gelir ve hakem topu ortaya atar.\n
+
+2.Süre: 1'e 1 maçlarda belirlenmiş bir süre vardır. Örneğin, 10 dakika veya ilk belirli sayıya ulaşan oyuncunun galip gelmesi gibi.\n
+
+3.Sayılama: Genellikle 1'e 1 maçlarda 2 veya 3 sayı atarak oyun kazanılır.\n Bu, oyuncular arasında önceden belirlenen bir anlaşma veya maç kurallarıyla belirlenir.\n
+
+4.Faul ve Cezalar: Faul durumlarında genellikle serbest atış veya topun başlama pozisyonunda oyuna devam edilir.\n Faul yapan oyuncu, serbest atış veya topa başlama pozisyonunda avantaj kazanır.\n\n\n\n" />
+        </LinearLayout>
+    </ScrollView>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/main_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/loc_pic2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.2"
+                        app:srcCompat="@drawable/location"
+                        app:tint="@color/text_color" />
+
+                    <ImageView
+                        android:id="@+id/profile_pic1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.2"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/profile"
+                        app:tint="@color/text_color" />
+
+                </LinearLayout>
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                style="@style/FloatingBall"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                app:layout_anchor="@id/app_bar"
+                app:maxImageSize="30dp" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

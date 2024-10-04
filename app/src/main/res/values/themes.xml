@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.DunkLocate.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.DunkLocate" parent="Base.Theme.DunkLocate.Light"/>
+    <style name="roundedImageRounded">
+        <item name="cornerFamily">
+            rounded
+        </item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Floating" parent="Widget.Design.FloatingActionButton">
+        <item name="android:foreground">@drawable/floating_background</item>
+    </style>
+    <style name="FloatingBall" parent="Widget.Design.FloatingActionButton">
+        <item name="android:foreground">@drawable/floating_background_ball</item>
+    </style>
+    <style name="FloatingProfile" parent="Widget.Design.FloatingActionButton">
+        <item name="android:foreground">@drawable/floating_background_profile</item>
+    </style>
+</resources>

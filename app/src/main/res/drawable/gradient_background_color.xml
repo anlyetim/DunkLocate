@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="#481E14"
+                android:centerColor="@color/ic_launcher_background"
+                android:endColor="@color/ic_launcher_background"
+                android:type="radial"
+                android:gradientRadius="110%p"
+                android:centerX="0.2"
+                android:centerY="0.1"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="@color/cardview_dark_background"
+                android:centerColor="@android:color/transparent"
+                android:endColor="@android:color/transparent"
+                android:gradientRadius="110%p"
+                android:centerY="0.6"
+                android:centerX="0.8"
+                android:type="radial"/>
+        </shape>
+    </item>
+</layer-list>
