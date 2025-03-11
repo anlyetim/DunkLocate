@@ -45,7 +45,7 @@ DunkLocate, yakınınızdaki halka açık basketbol sahalarını hızlı ve kola
 - [Emirhan Yalçın](https://github.com/emrhanyalcin) :gorilla:
 - [Bilal KORKMAZ](https://github.com/bilkorkmaz) :llama:
 
-- #### ***Öğr. Gör. Sena Nur Benli 🌠***
+- #### ***[Öğr. Gör. Sena Nur Benli](https://github.com/senanurbenli) 🌠***
 
 
 ## 🗺️ API
