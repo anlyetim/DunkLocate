@@ -38,6 +38,7 @@ DunkLocate, yakınınızdaki halka açık basketbol sahalarını hızlı ve kola
 
 <p align="center">
   <img src="https://github.com/anlyetim/DunkLocate/blob/main/.Visuals/Screenshot1.jpg" alt="DunkLocate Icon" width="300">
+  <img src=".Visuals/dunklocates1.jpeg" alt="DunkLocate Icon" width="280">
   <img src="https://github.com/anlyetim/DunkLocate/blob/main/.Visuals/Screenshot0.jpg" alt="DunkLocate Icon" width="294">
 </p>
 
